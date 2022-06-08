@@ -1,14 +1,12 @@
-#include "main.h"
-
-
+#include <stdio.h>
 
 /**
  *
- *  * main - Prints _putchar as a message.
+ *  * main - Entry point
  *
  *   *
  *
- *    * Return: Always 0 (Success)
+ *    * Return: 0
  *
  *     */
 
@@ -16,24 +14,26 @@ int main(void)
 
 {
 
-		int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+		char puts[7] = "putchar";
 
-			int count, sz;
+			int i;
+
+				int v = '_';
 
 
 
-				sz = sizeof(str) / sizeof(int);
+					putchar(v);
 
-					for (count = 0; count < sz; count++)
+						for (i = 0; i < 7; i++)
 
-							{
+								{
 
-										_putchar(str[count]);
+											putchar(puts[i]);
 
-											}
+												}
 
-						_putchar('\n');
+							putchar('\n');
 
-							return (0);
+								return (0);
 
 }
