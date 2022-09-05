@@ -1,10 +1,5 @@
-#ifndef _MAIN_
-#define _MAIN_
-
-/*
- * Desc: Header file containing prototypes for all functions
- *       written in the 0x14-file_io directory.
- */
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
@@ -27,4 +22,4 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
-#endif /* MAIN_H */
+#endif
